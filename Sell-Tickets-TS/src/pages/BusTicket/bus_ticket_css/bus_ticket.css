@@ -1,0 +1,227 @@
+bus_ticket.css
+
+/* Thay đổi màu nền và font chữ để đồng bộ với trang home */
+.bus-ticket-page {
+  font-family: "Roboto", sans-serif; /* Đồng bộ font chữ */
+  background-color: #ffffff; /* Màu nền trắng */
+  color: #333; /* Màu chữ chính */
+}
+
+/* Thu nhỏ phần tìm kiếm */
+.search-section {
+  background-color: #f8f9fa;
+  padding: 12px; /* Giảm padding */
+  border-radius: 6px; /* Bo góc nhỏ hơn */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ hơn */
+  margin-bottom: 16px; /* Giảm khoảng cách dưới */
+  max-width: 800px; /* Giới hạn chiều rộng */
+  margin: 0 auto; /* Căn giữa */
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Giảm khoảng cách giữa các phần tử */
+  justify-content: space-between;
+}
+
+.search-box input[type="text"],
+.search-box input[type="date"] {
+  padding: 8px; /* Giảm padding */
+  border: 1px solid #ddd;
+  border-radius: 4px; /* Bo góc nhỏ hơn */
+  width: 25%; /* Thu nhỏ chiều rộng */
+  min-width: 120px;
+  font-size: 13px; /* Giảm kích thước chữ */
+}
+
+.search-box .arrow-icon {
+  font-size: 18px; /* Giảm kích thước icon */
+  color: #999;
+}
+
+.search-btn {
+  padding: 8px 16px; /* Giảm padding */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px; /* Bo góc nhỏ hơn */
+  cursor: pointer;
+  font-size: 13px; /* Giảm kích thước chữ */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Thu nhỏ khoảng cách giữa "Sắp xếp" và "Kết quả" */
+.main-section {
+  display: flex;
+  gap: 16px; /* Khoảng cách giữa "Sắp xếp" và "Kết quả" */
+  max-width: 800px; /* Giới hạn chiều ngang bằng phần tìm kiếm */
+  margin: 0 auto; /* Căn giữa toàn bộ phần */
+}
+
+/* Phần "Sắp xếp" */
+.filter-sidebar {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Để phần "Sắp xếp" chiếm không gian cân đối */
+  max-width: 170px; /* Giới hạn chiều rộng */
+  margin-top: 10px;
+}
+
+.filter-sidebar h3 {
+  margin-bottom: 12px; /* Giảm khoảng cách dưới */
+  font-size: 14px; /* Giảm kích thước chữ */
+  color: #333;
+}
+
+.filter-options label {
+  display: block;
+  margin-bottom: 8px; /* Giảm khoảng cách giữa các tùy chọn */
+  font-size: 13px; /* Giảm kích thước chữ */
+  color: #555;
+}
+
+/* Phần "Kết quả" */
+.results-area {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 3; /* Để phần "Kết quả" chiếm không gian lớn hơn */
+  margin-top: 10px;
+}
+
+.results-area h2 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cập nhật phần danh sách chuyến đi */
+.trip-card {
+  background: #f9f9f9; /* Màu nền sáng hơn */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Hiệu ứng đổ bóng nhẹ */
+  display: flex;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.2s ease; /* Hiệu ứng hover */
+}
+
+.trip-card:hover {
+  transform: translateY(-5px); /* Hiệu ứng nổi lên khi hover */
+}
+
+.trip-image {
+  width: 200px; /* Giảm kích thước ảnh */
+  height: 140px;
+  object-fit: cover;
+}
+
+.trip-details {
+  padding: 16px;
+  flex: 1;
+}
+
+.trip-header {
+  font-size: 16px; /* Kích thước chữ nhỏ hơn */
+  margin-bottom: 8px;
+}
+
+.trip-header .rating {
+  margin-left: 8px;
+  color: #f5a623; /* Màu vàng cho rating */
+  font-weight: bold;
+}
+
+.trip-route {
+  font-size: 14px;
+  color: #666; /* Màu chữ nhạt hơn */
+  margin-bottom: 12px;
+}
+
+.trip-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px; /* Kích thước chữ nhỏ hơn */
+  margin-bottom: 12px;
+}
+
+.trip-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-price {
+  color: #28a745; /* Màu xanh lá cho giá hiện tại */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #999;
+}
+
+.seats-left {
+  color: #dc3545; /* Màu đỏ cho số ghế còn lại */
+  font-weight: bold;
+}
+
+.select-trip {
+  background-color: #007bff; /* Màu xanh đồng bộ */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.select-trip:hover {
+  background-color: #0056b3;
+  opacity: 0.9;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .search-box input[type="text"],
+  .search-box input[type="date"] {
+    width: 48%;
+  }
+
+  .filter-sidebar {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .main-section {
+    flex-direction: column;
+  }
+
+  .trip-card {
+    flex-direction: column; /* Chuyển sang dạng cột */
+  }
+
+  .trip-image {
+    width: 100%; /* Ảnh chiếm toàn bộ chiều rộng */
+    height: auto;
+  }
+}

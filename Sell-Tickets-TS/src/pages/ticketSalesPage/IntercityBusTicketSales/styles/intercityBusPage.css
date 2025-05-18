@@ -1,0 +1,67 @@
+/*Frontend\src\pages\ticketSalesPage\IntercityBusTicketSales\styles\intercityBusPage.css*/
+.intercity-container {
+  padding: 90px 30px 30px;
+  background: #f5f6fa;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.intercity-title {
+  text-align: center;
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 24px;
+}
+
+.intercity-search-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intercity-search {
+  padding: 12px 18px;
+  font-size: 16px;
+  width: 280px;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.intercity-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.intercity-card-size {
+  background: #fff;
+  padding: 20px;
+  width: 286px;
+  height: 156px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.intercity-card-size:hover {
+  transform: translateY(-5px);
+}
+
+.intercity-button {
+  margin-top: 12px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.intercity-button:hover {
+  background-color: #0056b3;
+}

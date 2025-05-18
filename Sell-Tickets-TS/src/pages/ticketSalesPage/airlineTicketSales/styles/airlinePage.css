@@ -1,0 +1,50 @@
+.airline-container {
+  padding: 90px 30px 30px;
+  background: #eaf6ff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.airline-title {
+  text-align: center;
+  font-size: 28px;
+  color: #0077cc;
+  margin-bottom: 24px;
+}
+
+.airline-search-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.airline-search {
+  padding: 12px 18px;
+  font-size: 16px;
+  width: 280px;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.airline-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.airline-card-size {
+  background: #ffffff;
+  padding: 20px;
+  width: 317px;
+  height: 184px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.airline-card-size:hover {
+  transform: translateY(-5px);
+}
+

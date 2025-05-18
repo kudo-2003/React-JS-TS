@@ -1,0 +1,21 @@
+/*Căn Chữ Vào Giữa*/
+.text-between {
+  text-align:center;
+}
+
+/*Căn Chữ cách 10px [ Trang Bán Vé tàu, Trang Bán Vé Máy Bay, Trang bán Vé Du Lịch] */
+.box-distance{
+  text-indent: 10px
+}
+/*Thấp xuống 5px [Trang Bán Vé tàu]*/
+.box-train-lower{
+  margin-top: 5px;
+}
+/*Thấp xuống 5px [Trang Bán Vé máy bay]*/
+.box-plane-lower{
+  margin-top: 5px;
+}
+/*Thấp xuống 5px [Trang Bán Vé xe du lịch]*/
+.box-tourism-lower{
+  margin-top: 5px;
+}

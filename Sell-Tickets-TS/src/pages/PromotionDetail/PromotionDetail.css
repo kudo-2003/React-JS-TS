@@ -1,0 +1,99 @@
+.promotion-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .promotion-detail-card {
+    width: 100%;
+    max-width: 960px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .promotion-detail-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promotion-detail-card h1 {
+    font-size: 2.6rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  .promotion-detail-card img {
+    width: 100%;
+    border-radius: 14px;
+    margin: 30px 0;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promotion-description {
+    font-size: 1.25rem;
+    color: #555555;
+    margin-bottom: 25px;
+    line-height: 1.6;
+  }
+  
+  .promotion-code {
+    display: inline-block;
+    background-color: #ffe4e9;
+    color: #d32f2f;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(211, 47, 47, 0.2);
+  }
+  
+  .promotion-code span {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .promotion-date {
+    font-size: 1rem;
+    color: #757575;
+    margin-bottom: 20px;
+  }
+  
+  .promotion-terms {
+    background-color: #e8f5e9;
+    padding: 20px 25px;
+    border-radius: 12px;
+    text-align: left;
+    margin-top: 30px;
+    box-shadow: inset 0 0 0 1px #c8e6c9;
+  }
+  
+  .promotion-terms h3 {
+    font-size: 1.2rem;
+    color: #388e3c;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  .promotion-terms p {
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .promotion-not-found {
+    text-align: center;
+    margin: 100px auto;
+    font-size: 1.6rem;
+    color: #e53935;
+    font-weight: 600;
+  }
+  

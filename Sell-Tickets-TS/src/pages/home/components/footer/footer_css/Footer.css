@@ -1,0 +1,103 @@
+.footer {
+  background-color: #f9f9f9;
+  padding: 60px 30px 30px;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.newsletter-card {
+  background: linear-gradient(135deg, #002aff, #03228f);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.newsletter-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.newsletter-card p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  width: 280px;
+}
+
+.newsletter-form button {
+  padding: 12px 20px;
+  background-color: #ff914d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #e76a24;
+}
+
+/* Footer content grid */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.footer-brand h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.footer-contact h4,
+.footer-social h4,
+.footer-links h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.footer-links a,
+.footer-contact p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.social-icons a {
+  margin-right: 12px;
+  font-size: 18px;
+  color: #0083b0;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff914d;
+}

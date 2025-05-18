@@ -1,0 +1,65 @@
+.signin-container-admin {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2980b9, #6dd5fa, #fff);
+}
+
+.signin-form-admin {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.2);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.signin-form-admin h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2980b9;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.signin-form-admin input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #b2bec3;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.signin-form-admin input:focus {
+  border: 1.5px solid #2980b9;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
+.signin-form-admin button {
+  padding: 0.8rem;
+  background: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.signin-form-admin button:disabled {
+  background: #b2bec3;
+  cursor: not-allowed;
+}

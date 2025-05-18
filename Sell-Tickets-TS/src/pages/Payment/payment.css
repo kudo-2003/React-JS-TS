@@ -1,0 +1,178 @@
+/* payment.css */
+
+.payment-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fb;
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+.payment-contact-info,
+.payment-method-section {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.payment-contact-info h3,
+.payment-method-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.payment-contact-info label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #444;
+}
+
+.payment-contact-info input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.payment-contact-info input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.payment-note {
+  margin-top: -10px;
+  color: #777;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.payment-error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 6px;
+}
+
+.payment-next-btn,
+.payment-confirm-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-next-btn:hover,
+.payment-confirm-btn:hover {
+  background-color: #0056b3;
+}
+
+.payment-method-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.payment-method-option {
+  display: flex;
+  align-items: center;
+  background: #f0f4f8;
+  border-radius: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.payment-method-option:hover {
+  background: #e6f0ff;
+  border-color: #007bff;
+}
+
+.payment-method-option input {
+  margin-right: 14px;
+  transform: scale(1.2);
+}
+
+.payment-qr-section {
+  background: #fff4e6;
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 3px 10px rgba(255, 193, 7, 0.15);
+}
+
+.payment-qr-section img {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+}
+
+/* Form thanh toán bằng thẻ */
+.payment-card-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-card-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.payment-card-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.payment-card-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.payment-card-form .flex-row {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-card-form .flex-row label {
+  flex: 1;
+}
+
+.payment-card-form .flex-row input {
+  width: 100%;
+}
+
+.payment-card-form .note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
