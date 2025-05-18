@@ -1,5 +1,5 @@
 import React from "react";
-import "../revenueManagement/revenue_css/revenue.css";
+import "./revenue_css/revenue.css";
 
 const Revenue: React.FC = () => {
   // Giả lập dữ liệu doanh thu
