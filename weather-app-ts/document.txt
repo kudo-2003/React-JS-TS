@@ -1,0 +1,2 @@
+- https://openweathermap.org/city/1594018
+- https://www.weatherapi.com/
